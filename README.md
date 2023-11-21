@@ -18,12 +18,21 @@
     }
 }
 ```
-* Response
+* Response OK
 ```
 {
     "outcome": "Correct rate:13/20",
     "status": "ok",
     "test": "The test maximum is 2720, the test number is 20"
+}
+```
+
+* Response Error
+```
+{
+    "status": "fail",
+    "statusCode": 500,
+    "message": ""
 }
 ```
 
