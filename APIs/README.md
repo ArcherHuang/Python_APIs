@@ -1,7 +1,7 @@
 # Python_APIs
 
 ## API
-### test-sample
+### 功能 test-sample
 * URL
   * POST http://localhost:6000/test-sample
 * Request Header
