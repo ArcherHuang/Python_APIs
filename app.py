@@ -10,13 +10,16 @@ def doing():
     sample_dataset_id = request_data['sampleDatasetId']
     model_id = request_data['modelId']
     llm_url = request_data['llmUrl']
+    llm_request_json = request_data['llmRequestJson']
     print(f"option: {option}")
     print(f"sample_dataset_id: {sample_dataset_id}")
     print(f"model_id: {model_id}")
     print(f"llm_url: {llm_url}")
+    print(f"llm_request_json: {llm_request_json}")
     return jsonify({
         "status": "ok",
-        "response": request_data,
+        "test": "The test maximum is 2720, the test number is 20",
+        "outcome": "Correct rate:13/20",
     }) 
   
 if __name__ == '__main__':
