@@ -9,12 +9,12 @@
 * Request Body
 ```
 {
+    "sampleTestId": "a32a8b52-9e21-5e7a-95fd-65c179ddd15d",
     "option": "1",
     "numberOfTestQuestions": 50,
     "sampleDatasetId": "S-01-20231101-A-01.csv",
-    "llmUrl": "https://api.openai.com/v1/completions",
-    "modelId": "9ff13c73-aa31-537e-bb49-da3ac623e6b7",
-    "llmRequestJson": {
+    "hostUrl": "https://api.openai.com/v1/completions",
+    "requestParameters": {
         "model": "text-davinci-003"
     }
 }
@@ -24,7 +24,8 @@
 {
     "outcome": "Correct rate:13/20",
     "status": "ok",
-    "test": "The test maximum is 2720, the test number is 20"
+    "test": "The test maximum is 2720, the test number is 20",
+    "finishTime": "以台灣時間顯示 YYYYMMDD HH:MM:SS"
 }
 ```
 
@@ -33,7 +34,8 @@
 {
     "status": "fail",
     "statusCode": 500,
-    "message": ""
+    "message": "",
+    "finishTime": "以台灣時間顯示 YYYYMMDD HH:MM:SS"
 }
 ```
 
