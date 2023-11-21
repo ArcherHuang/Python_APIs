@@ -1,8 +1,5 @@
 # Python_APIs
 
-## Run
-* python app.py
-
 ## API
 ### test-sample
 * URL
@@ -20,6 +17,8 @@
 ```
 
 ## Run Python Code
+* python app.py
+
 ![](./Images/Run_Python_Code.png)
 
 ## Postman
