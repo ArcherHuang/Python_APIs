@@ -43,3 +43,6 @@
 * python app.py
 
 ![](./Images/Run_Python_Code.png)
+
+## Postman
+![](./Images/Postman.png)
