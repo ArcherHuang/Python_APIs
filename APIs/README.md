@@ -13,7 +13,7 @@
       "product": "OpenAI",
       "hostUrl": "https://api.openai.com/v1/completions",
       "option": "1",
-      "sampleDatasetId": "S-01-20231101-A-01.csv",
+      "sampleDatasetId": "S-02-20231122-A-01,S-02-20231122-A-02",
       "numberOfTestQuestions": 50,
       "requestParameters": {
           "model": "text-davinci-003"
