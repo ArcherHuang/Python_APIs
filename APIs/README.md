@@ -17,6 +17,7 @@
       "product": "OpenAI",
       "requestParameters": {
           "model": "text-davinci-003"
+          ...
       }
   }
   ```
