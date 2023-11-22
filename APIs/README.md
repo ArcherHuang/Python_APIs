@@ -7,6 +7,8 @@
 * Request Header
   * Content-Type: application/json
 * Request Body
+  * "product": "OpenAI",
+  * "product": "Taiwan-Llama",
 ```
 {
     "sampleTestId": "a32a8b52-9e21-5e7a-95fd-65c179ddd15d",
@@ -14,6 +16,7 @@
     "numberOfTestQuestions": 50,
     "sampleDatasetId": "S-01-20231101-A-01.csv",
     "hostUrl": "https://api.openai.com/v1/completions",
+    "product": "OpenAI",
     "requestParameters": {
         "model": "text-davinci-003"
     }
@@ -22,6 +25,7 @@
 * Response OK
 ```
 {
+    "sampleTestId": "a32a8b52-9e21-5e7a-95fd-65c179ddd15d",
     "outcome": "Correct rate:13/20",
     "status": "ok",
     "test": "The test maximum is 2720, the test number is 20",
@@ -32,6 +36,7 @@
 * Response Error
 ```
 {
+    "sampleTestId": "a32a8b52-9e21-5e7a-95fd-65c179ddd15d",
     "status": "fail",
     "statusCode": 500,
     "message": "",
