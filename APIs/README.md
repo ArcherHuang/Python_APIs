@@ -25,26 +25,26 @@
       * OpenAI
       * Taiwan-Llama
 * Response OK
-```
-{
-    "sampleTestId": "a32a8b52-9e21-5e7a-95fd-65c179ddd15d",
-    "outcome": "Correct rate:13/20",
-    "status": "ok",
-    "test": "The test maximum is 2720, the test number is 20",
-    "finishTime": "以台灣時間顯示 YYYYMMDD HH:MM:SS"
-}
-```
+  ```
+  {
+      "sampleTestId": "a32a8b52-9e21-5e7a-95fd-65c179ddd15d",
+      "outcome": "Correct rate:13/20",
+      "status": "ok",
+      "test": "The test maximum is 2720, the test number is 20",
+      "finishTime": "以台灣時間顯示 YYYYMMDD HH:MM:SS"
+  }
+  ```
 
 * Response Error
-```
-{
-    "sampleTestId": "a32a8b52-9e21-5e7a-95fd-65c179ddd15d",
-    "status": "fail",
-    "statusCode": 500,
-    "message": "",
-    "finishTime": "以台灣時間顯示 YYYYMMDD HH:MM:SS"
-}
-```
+  ```
+  {
+      "sampleTestId": "a32a8b52-9e21-5e7a-95fd-65c179ddd15d",
+      "status": "fail",
+      "statusCode": 500,
+      "message": "",
+      "finishTime": "以台灣時間顯示 YYYYMMDD HH:MM:SS"
+  }
+  ```
 
 ## Run Python Code
 * python app.py
