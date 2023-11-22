@@ -7,8 +7,10 @@
 * Request Header
   * Content-Type: application/json
 * Request Body
-  * "product": "OpenAI",
-  * "product": "Taiwan-Llama",
+  * 備註
+    * product 的 JSON Key 種類的值如下
+      * OpenAI
+      * Taiwan-Llama
 ```
 {
     "sampleTestId": "a32a8b52-9e21-5e7a-95fd-65c179ddd15d",
@@ -22,7 +24,6 @@
     }
 }
 ```
-  * 備註
 * Response OK
 ```
 {
