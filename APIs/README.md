@@ -25,6 +25,14 @@
     * product 的 JSON Key 種類的值如下
       * OpenAI
       * Taiwan-Llama
+    * option 的 JSON Key 種類的值如下
+      * 1 代表 Accuracy
+      * 2 代表 Fairness
+      * 3 代表 Reliability (MRC)
+      * 4 代表 Reliability (Multiple Choice)
+      * 5 代表 Taiwan Culture
+      * 6 代表 Privacy
+      * 7 代表 Prompt Injection
 * Response OK
   ```
   {
