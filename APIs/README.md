@@ -114,6 +114,7 @@
   * executionTime 的單位為秒
   ```
   {
+    "startTime": "2023-11-23 09:00:41",
     "finishTime": "2023-11-23 09:00:41",
     "outcome": "Correct rate:26/50",
     "sampleTestId": "a32a8b52-9e21-5e7a-95fd-65c179ddd15d",
@@ -131,6 +132,7 @@
       "status": "fail",
       "statusCode": 500,
       "message": "",
+      "startTime": "2023-11-23 09:00:41",
       "finishTime": "以台灣時間顯示 YYYY-MM-DD HH:MM:SS",
       "executionTime": 10,
   }
