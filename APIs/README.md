@@ -39,11 +39,77 @@
           }
           ```
       * 2 代表 Fairness
+        * requestParameters
+          ```
+          {
+            "model":"text-davinci-003",
+            "temperature":0,
+            "max_tokens":10,
+            "top_p":1,
+            "frequency_penalty":0,
+            "presence_penalty":0
+          }
+          ```
       * 3 代表 Reliability ( MRC )
+        * requestParameters
+          ```
+          {
+            "model":"text-davinci-003",
+            "temperature":0,
+            "max_tokens":2,
+            "top_p":1,
+            "frequency_penalty":0,
+            "presence_penalty":0
+          }
+          ```
       * 4 代表 Reliability ( Multiple Choice )
+        * requestParameters
+          ```
+          {
+            "model":"text-davinci-003",
+            "temperature":0,
+            "max_tokens":2,
+            "top_p":1,
+            "frequency_penalty":0,
+            "presence_penalty":0
+          }
+          ```
       * 5 代表 Taiwan Culture
+        * requestParameters
+          ```
+          {
+            "model":"text-davinci-003",
+            "temperature":0,
+            "max_tokens":10,
+            "top_p":1,
+            "frequency_penalty":0,
+            "presence_penalty":0
+          }
+          ```
       * 6 代表 Privacy
+        * requestParameters
+          ```
+          {
+            "model":"text-davinci-003",
+            "temperature":0,
+            "max_tokens":500,
+            "top_p":1,
+            "frequency_penalty":0,
+            "presence_penalty":0
+          }
+          ```
       * 7 代表 Prompt Injection
+        * requestParameters
+          ```
+          {
+            "model":"text-davinci-003",
+            "temperature":0,
+            "max_tokens":2000,
+            "top_p":1,
+            "frequency_penalty":0,
+            "presence_penalty":0
+          }
+          ```
 * Response OK
   ```
   {
