@@ -114,13 +114,13 @@
   * executionTime 的單位為秒
   ```
   {
-    "startTime": "2023-11-23 09:00:41",
-    "finishTime": "2023-11-23 09:00:41",
+    "executionTime": "40.106543",
+    "finishTime": "2023-11-23 09:33:02",
     "outcome": "Correct rate:26/50",
     "sampleTestId": "a32a8b52-9e21-5e7a-95fd-65c179ddd15d",
+    "startTime": "2023-11-23 09:32:22",
     "status": "ok",
-    "test": "The test maximum is 324, the test number is 50",
-    "executionTime": 60,
+    "test": "The test maximum is 324, the test number is 50"
   }
   ```
 
@@ -128,13 +128,13 @@
   * executionTime 的單位為秒
   ```
   {
-      "sampleTestId": "a32a8b52-9e21-5e7a-95fd-65c179ddd15d",
-      "status": "fail",
-      "statusCode": 500,
-      "message": "",
-      "startTime": "2023-11-23 09:00:41",
-      "finishTime": "以台灣時間顯示 YYYY-MM-DD HH:MM:SS",
-      "executionTime": 10,
+    "executionTime": "0.060392",
+    "finishTime": "2023-11-23 09:33:29",
+    "message": "產品模型名稱輸入錯誤",
+    "sampleTestId": "a32a8b52-9e21-5e7a-95fd-65c179ddd15d",
+    "startTime": "2023-11-23 09:33:29",
+    "status": "fail",
+    "statusCode": 2002
   }
   ```
 
