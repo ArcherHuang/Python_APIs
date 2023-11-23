@@ -117,7 +117,7 @@
     "outcome": "Correct rate:26/50",
     "sampleTestId": "a32a8b52-9e21-5e7a-95fd-65c179ddd15d",
     "status": "ok",
-    "test": "The test maximum is 324, the test number is 50"
+    "test": "The test maximum is 324, the test number is 50",
     "executionTime": 60,
   }
   ```
@@ -129,7 +129,8 @@
       "status": "fail",
       "statusCode": 500,
       "message": "",
-      "finishTime": "以台灣時間顯示 YYYY-MM-DD HH:MM:SS"
+      "finishTime": "以台灣時間顯示 YYYY-MM-DD HH:MM:SS",
+      "executionTime": 10,
   }
   ```
 
