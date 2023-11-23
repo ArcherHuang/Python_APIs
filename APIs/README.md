@@ -111,6 +111,7 @@
           }
           ```
 * Response OK
+  * executionTime 的單位為秒
   ```
   {
     "finishTime": "2023-11-23 09:00:41",
@@ -123,6 +124,7 @@
   ```
 
 * Response Error
+  * executionTime 的單位為秒
   ```
   {
       "sampleTestId": "a32a8b52-9e21-5e7a-95fd-65c179ddd15d",
