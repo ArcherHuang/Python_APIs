@@ -27,6 +27,17 @@
       * Taiwan-Llama
     * option 的 JSON Key 種類的值如下
       * 1 代表 Accuracy
+        * requestParameters
+          ```
+          {
+            "model":"text-davinci-003",
+            "temperature":0,
+            "max_tokens":200,
+            "top_p":1,
+            "frequency_penalty":0,
+            "presence_penalty":0
+          }
+          ```
       * 2 代表 Fairness
       * 3 代表 Reliability ( MRC )
       * 4 代表 Reliability ( Multiple Choice )
