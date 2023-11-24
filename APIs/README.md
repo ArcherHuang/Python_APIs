@@ -28,88 +28,137 @@
     * option 的 JSON Key 種類的值如下
       * 1 代表 Accuracy
         * requestParameters
-          ```
-          {
-            "model":"text-davinci-003",
-            "temperature":0,
-            "max_tokens":200,
-            "top_p":1,
-            "frequency_penalty":0,
-            "presence_penalty":0
-          }
-          ```
+          * OpenAI
+            ```
+            {
+              "model":"text-davinci-003",
+              "temperature":0,
+              "max_tokens":200,
+              "top_p":1,
+              "frequency_penalty":0,
+              "presence_penalty":0
+            }
+            ```
+          * Taiwan-Llama
+            ```
+            {
+              "max_tokens":20
+            }
+            ```
       * 2 代表 Fairness
         * requestParameters
-          ```
-          {
-            "model":"text-davinci-003",
-            "temperature":0,
-            "max_tokens":10,
-            "top_p":1,
-            "frequency_penalty":0,
-            "presence_penalty":0
-          }
-          ```
+          * OpenAI
+            ```
+            {
+              "model":"text-davinci-003",
+              "temperature":0,
+              "max_tokens":10,
+              "top_p":1,
+              "frequency_penalty":0,
+              "presence_penalty":0
+            }
+            ```
+          * Taiwan-Llama
+            ```
+            {
+              "max_tokens":10
+            }
+            ```
       * 3 代表 Reliability ( MRC )
         * requestParameters
-          ```
-          {
-            "model":"text-davinci-003",
-            "temperature":0,
-            "max_tokens":2,
-            "top_p":1,
-            "frequency_penalty":0,
-            "presence_penalty":0
-          }
-          ```
+          * OpenAI
+            ```
+            {
+              "model":"text-davinci-003",
+              "temperature":0,
+              "max_tokens":2,
+              "top_p":1,
+              "frequency_penalty":0,
+              "presence_penalty":0
+            }
+            ```
+          * Taiwan-Llama
+            ```
+            {
+              "max_tokens":2
+            }
+            ```
       * 4 代表 Reliability ( Multiple Choice )
         * requestParameters
-          ```
-          {
-            "model":"text-davinci-003",
-            "temperature":0,
-            "max_tokens":2,
-            "top_p":1,
-            "frequency_penalty":0,
-            "presence_penalty":0
-          }
-          ```
+          * OpenAI
+            ```
+            {
+              "model":"text-davinci-003",
+              "temperature":0,
+              "max_tokens":2,
+              "top_p":1,
+              "frequency_penalty":0,
+              "presence_penalty":0
+            }
+            ```
+          * Taiwan-Llama
+            ```
+            {
+              "max_tokens":2
+            }
+            ```
       * 5 代表 Taiwan Culture
         * requestParameters
-          ```
-          {
-            "model":"text-davinci-003",
-            "temperature":0,
-            "max_tokens":10,
-            "top_p":1,
-            "frequency_penalty":0,
-            "presence_penalty":0
-          }
-          ```
+          * OpenAI
+            ```
+            {
+              "model":"text-davinci-003",
+              "temperature":0,
+              "max_tokens":10,
+              "top_p":1,
+              "frequency_penalty":0,
+              "presence_penalty":0
+            }
+            ```
+          * Taiwan-Llama
+            ```
+            {
+              "max_tokens":10
+            }
+            ```
       * 6 代表 Privacy
         * requestParameters
-          ```
-          {
-            "model":"text-davinci-003",
-            "temperature":0,
-            "max_tokens":500,
-            "top_p":1,
-            "frequency_penalty":0,
-            "presence_penalty":0
-          }
-          ```
+          * OpenAI
+            ```
+            {
+              "model":"text-davinci-003",
+              "temperature":0,
+              "max_tokens":500,
+              "top_p":1,
+              "frequency_penalty":0,
+              "presence_penalty":0
+            }
+            ```
+          * Taiwan-Llama
+            ```
+            {
+              "max_tokens":500
+            }
+            ```
       * 7 代表 Prompt Injection
         * requestParameters
-          ```
-          {
-            "model":"text-davinci-003",
-            "temperature":0,
-            "max_tokens":2000,
-            "top_p":1,
-            "frequency_penalty":0,
-            "presence_penalty":0
-          }
-          ```
+          * OpenAI
+            ```
+            {
+              "model":"text-davinci-003",
+              "temperature":0,
+              "max_tokens":2000,
+              "top_p":1,
+              "frequency_penalty":0,
+              "presence_penalty":0
+            }
+            ```
+          * Taiwan-Llama
+            ```
+            {
+              "max_tokens":2000
+            }
+            ```
 * Response OK
   * executionTime 的單位為秒
   ```
