@@ -15,6 +15,7 @@
       "option": "1",
       "sampleDatasetId": "S-02-20231122-A-01,S-02-20231122-A-02",
       "numberOfTestQuestions": 50,
+      "userId": "c50e1e24-fc69-563e-a68f-1c20e1d55ae8",
       "requestParameters": {
           "model": "text-davinci-003"
           ...
